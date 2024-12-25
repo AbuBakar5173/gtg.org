@@ -611,6 +611,14 @@ main>section {
     transform: rotate(-90deg);
 }
 
+.swiper-pagination-bullet{
+    background-color: var(--alternative-text) !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: var(--main-600) !important;
+}
+
 /* -------------- Course Category Radio Switch--------------*/
 .filter-switch {
     border: 2px solid var(--primary-500);
