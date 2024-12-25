@@ -1,0 +1,227 @@
+@media (max-width: 768px) {
+    :root {
+        font-size: 14px;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav {
+        height: 10%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav .nnav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    nav .logo {
+        font-size: 1.5rem;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    nav .left .switch {
+        scale: 0.7;
+    }
+
+    nav a {
+        width: fit-content;
+        gap: .5rem;
+    }
+
+    nav .nnav a img {
+        height: 3rem;
+    }
+
+    nav .nnav a {
+        flex: 4;
+    }
+
+    nav a .logo {
+        font-size: 1.4rem;
+        margin-left: 1rem;
+    }
+
+    .nnav .left {
+        flex: none;
+    }
+
+    nav .nnav .left #menu {
+        display: block;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main>section {
+        width: 95%;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    #hero {
+        width: 95%;
+        height: fit-content;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+    }
+
+    #hero img {
+        height: 20rem;
+    }
+
+    #hero .left {
+        gap: 1.5rem;
+        margin-left: 1.2rem;
+    }
+
+    #hero .left h1 {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero .left h1 span {
+        font-size: 3rem;
+    }
+
+    #hero .left h3 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        line-height: 1.8rem;
+    }
+
+    #hero :nth-child(3) {
+        gap: 1rem;
+    }
+
+    #hero :nth-child(3) a {
+        font-size: 1.08rem;
+    }
+
+
+
+    #feature {
+        flex-direction: column;
+    }
+
+    .card-ftr {
+        width: 75%;
+        height: auto;
+        margin: 2rem auto;
+    }
+
+    .card-ftr h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-ftr p {
+        font-size: 0.5rem;
+    }
+
+    #goToUniversityCourses .card-ftr {
+        margin: 5rem auto 0 auto;
+    }
+
+    #feature :nth-child(2) img {
+        height: 25rem;
+        margin-top: -4rem;
+    }
+
+    #feature p {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    #why-us article {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #why-us article>p {
+        width: 90%;
+        line-height: 1.8rem;
+    }
+
+    #why-us h1 {
+        font-size: 2rem;
+    }
+
+    #why-us p {
+        text-align: justify;
+        font-size: 1.1rem;
+        line-height: normal;
+    }
+
+    .us-container {
+        width: 95%;
+        margin-top: 0;
+    }
+
+    .AboutUs {
+        margin: 1rem auto;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 95%;
+        height: 9rem;
+    }
+
+    .AboutUs div {
+        text-align: start;
+    }
+
+    .AboutUs div p {
+        margin: 0;
+    }
+
+    .us-container P {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+
+
+
+    .filter-switch {
+        width: 95%;
+        height: 3.5rem;
+    }
+
+    .filter-switch label {
+        font-size: 1rem;
+    }
+
+    .swiper {
+        width: 95%;
+    }
+
+    #faq {
+        width: 95%;
+        border: 0.4rem solid var(--primary-600);
+        padding: 0.5rem;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    .footer-down,
+    .footer-up {
+        margin-bottom: 1.2rem;
+    }
+
+    .footer-up {
+        flex-wrap: wrap;
+    }
+
+}
