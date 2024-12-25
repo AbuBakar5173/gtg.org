@@ -75,7 +75,7 @@ const UniversityCourseCards = [
         link: "#"
     },
     {
-        img_src: "Assets/computers.webp",
+        img_src: "Assets/Computers.webp",
         category: "Computer-IT",
         subHead: "BCA, MCA",
         supportingText: "Ideal for programmers, developers, and IT enthusiasts.",
