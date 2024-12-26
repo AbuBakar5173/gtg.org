@@ -134,11 +134,6 @@
         margin: 5rem auto 0 auto;
     }
 
-    #feature :nth-child(2) img {
-        height: 25rem;
-        margin-top: -4rem;
-    }
-
     #feature p {
         margin-bottom: 1rem;
         font-size: 1rem;
