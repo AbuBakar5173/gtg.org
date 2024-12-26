@@ -532,15 +532,6 @@ main>section {
     transition: var(--primary-transition);
 }
 
-/* .card-ftr img:hover{
-    transform: scale(1.11);
-} */
-
-#feature :nth-child(2) img {
-    height: 25rem;
-    margin-top: -4rem;
-}
-
 .card-ftr h2 {
     margin-top: -2rem;
     margin-bottom: 1rem;
@@ -551,10 +542,6 @@ main>section {
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
-}
-
-#feature :nth-child(2) .card-ftr h2 {
-    margin-top: -8rem;
 }
 
 /* -------------- Slider: Course Category --------------*/
