@@ -166,4 +166,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+// -/-/-/-/-/-/-/-/-/-/--Prevent Image Default Options Script---/-/-/-/-/-/-/-/-/-/-/
+
+document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('contextmenu', event => event.preventDefault());
+});
+
 // -/-/-/-/-/-/-/-/-/-/--Other Script---/-/-/-/-/-/-/-/-/-/-/
